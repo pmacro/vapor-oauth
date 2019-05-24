@@ -10,6 +10,8 @@ xcuserdata
 *.xcodeproj
 DerivedData/
 .DS_Store
+Package.resolved
+Package.pins
 
 # End of https://www.gitignore.io/api/vapor
 =======
