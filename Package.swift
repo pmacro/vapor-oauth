@@ -12,7 +12,7 @@ let package = Package(
     	.package(url: "https://github.com/vapor/auth.git", from: "2.0.1"),
     ],
     targets: [
-      .target(name: "VaporOAuth", dependencies: ["Vapor", "Auth"]),
+      .target(name: "VaporOAuth", dependencies: ["Vapor", "Authentication"]),
       .testTarget(name: "VaporOAuthTests", dependencies: ["VaporOAuth"]),
     ]
 )
